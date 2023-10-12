@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+}
+ html, body{
+    
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.header{ 
+    background-color: red;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 2px dashed #000;  
+}
+.nav{
+    background-color:lightblue;
+}
+ul{
+    padding: 1%;
+    border-bottom: 1px solid #000;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+h1{
+    color: white;
+}
+button{
+    background-color: whitesmoke;
+}
+.content{
+    float: left;
+    width: 66%;
+    height: 400px;
+    background-color: green;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    position: relative;
+    margin-bottom: 0%;
+    
+}
+.article{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-bottom: 1px solid #ffffff;   
+}
+.content .article:first-child {
+    border-top: 1px solid #ffffff; /* Agrega el borde superior al primer .article */
+}
+.aside {
+    float: right;
+    width: 30%;
+    height: 418px;
+    background-color: chocolate;
+    color: black;
+   
+}
+.footer {
+    position: fixed; 
+    bottom: 0; 
+    height: 4%;
+    width: 100%; 
+    background-color: black;
+    color: whitesmoke;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+  }
+/* 
+border de 3 pc solido,
+1pc negro el que abarca toda la pantalla
+header bordet bottom 3pc punteado
+lista es border abajo de 1 px
+el verde tiene un padding en x de 20px y un padding top de 20px */
+
+/* border bottom de 1px para los bordes blancos del verde */
